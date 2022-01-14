@@ -213,14 +213,14 @@ Practice accessing data above by console.log-ing following items:
 
 //(2) Bio of the third artist (2nd index) in the array 
 
-//console.log(artists[2].bio) 
+console.log(artists[2].bio) 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Fix this issue and console.log() to check your work. */
 
 artists[8].name = 'Vincent Van Gogh'
-//console.log(artists[8].name)
+console.log(artists[8].name)
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
 Use getArtistByIndex to do the following:
@@ -234,7 +234,7 @@ function getArtistByIndex(array, i) {
   return `the artist at index ${array[i].id} is ${array[i].name}`
 }
 
-//console.log(getArtistByIndex(artists, 0))
+console.log(getArtistByIndex(artists, 0))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use get20s to do the following: 
@@ -255,7 +255,7 @@ function get20s(array) {
   }
   return artists20
 }
-//console.log(get20s(artists))
+console.log(get20s(artists))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use removeArtist to do the following:
@@ -271,7 +271,7 @@ function removeArtist(array, i) {
   return array.length
 }
 
-//console.log(removeArtist(artists, 0))
+console.log(removeArtist(artists, 0))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -301,7 +301,7 @@ function addArtist(array) {
   return array
 }
 
-//console.log(addArtist(artists))
+console.log(addArtist(artists))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -320,7 +320,7 @@ function lotsOfArt(array) {
   return manyPaintings;
 }
 
-//console.log(lotsOfArt(artists))
+console.log(lotsOfArt(artists))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 8: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use artistInfo to do the following: 
@@ -341,7 +341,7 @@ function artistInfo(array, name){
   return nameBio
 }
 
-//console.log(artistInfo(artists, 'Frida Kahlo'))
+console.log(artistInfo(artists, 'Frida Kahlo'))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 9: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use artistByCountry to do the following: 
